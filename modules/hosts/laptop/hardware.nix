@@ -1,4 +1,4 @@
-{ self, inputs, ... }: {
+{ self, inputs, modulesPath, ... }: {
   flake.nixosModules.myLaptopHardware = { config, lib, pkgs, modulesPath, ... }:
 
 {
@@ -36,6 +36,6 @@
 
   nixpkgs.hostPlatform = lib.mkDefault "x86_64-linux";
   hardware.cpu.intel.updateMicrocode = lib.mkDefault config.hardware.enableRedistributableFirmware;
-}
+};
 
 }
