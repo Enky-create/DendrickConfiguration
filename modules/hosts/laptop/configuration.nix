@@ -149,6 +149,7 @@ services.blueman.enable = true;
     impression
     gparted
     vlc
+    udisks
   ];
   #HYPRLAND
 #services.greetd = {
