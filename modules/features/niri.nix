@@ -127,7 +127,7 @@
           "Mod+Ctrl+WheelScrollUp".focus-workspace-up = null;
           "Mod+Comma".consume-window-into-column = null;
           "Mod+Period".expel-window-from-column = null;
-          "Mod+Escape".spawn-sh = "${lib.getExe self'.packages.myNoctalia} ipc call session lock";
+          "Mod+Escape".spawn-sh = "${lib.getExe self'.packages.myNoctalia} ipc call lockScreen lock";
         };
       };
     };

@@ -15,6 +15,7 @@
 
   #Bluetooth
   #hardware.bluetooth.enable = true;
+  services.upower.enable = true;
   hardware.bluetooth = {
   enable = true;
   powerOnBoot = true;
@@ -150,6 +151,7 @@ services.blueman.enable = true;
     gparted
     vlc
     udisks
+    tigervnc
   ];
   #HYPRLAND
 #services.greetd = {
