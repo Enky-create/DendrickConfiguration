@@ -25,17 +25,17 @@
         ];
 
         xwayland-satellite.path = lib.getExe pkgs.xwayland-satellite;
-        input.focus-follows-mouse = null;
+        input.focus-follows-mouse = {};
         input.keyboard.xkb.layout = "us,ru";
         input.keyboard.xkb.options = "grp:win_space_toggle";
-        input.touchpad.tap = null;
-        input.touchpad.dwt = null;
-        input.touchpad.natural-scroll  = null;
+        input.touchpad.tap = {};
+        input.touchpad.dwt = {};
+        input.touchpad.natural-scroll  = {};
         
         layout = {
           gaps = 5;
           focus-ring = {
-            #enable = null;
+            #enable ={};
             width = 3;
 
             active-color = "#f27c7c";
@@ -65,29 +65,30 @@
           "Mod+T".spawn-sh = lib.getExe pkgs.throne;
           "Mod+A".spawn-sh = lib.getExe pkgs.amnezia-vpn;
           "Mod+V".spawn-sh = lib.getExe pkgs.vscode;
-          "Mod+Q".close-window = null;
+          "Mod+Q".close-window ={};
           "Mod+S".spawn-sh = "${lib.getExe self'.packages.myNoctalia} ipc call launcher toggle";
           
 
-          "Mod+F".maximize-column = null;
-          "Mod+G".fullscreen-window = null;
-          "Mod+Shift+F".toggle-window-floating = null;
-          "Mod+C".center-column = null;
+          "Mod+F".maximize-column ={};
+          "Mod+G".fullscreen-window ={};
+          "Mod+Shift+F".toggle-window-floating ={};
+          "Mod+C".center-column ={};
+          "Mod+D".toggle-overview = {};
 
-          "Mod+H".focus-column-left = null;
-          "Mod+L".focus-column-right = null;
-          "Mod+K".focus-window-up = null;
-          "Mod+J".focus-window-down = null;
+          "Mod+H".focus-column-left ={};
+          "Mod+L".focus-column-right ={};
+          "Mod+K".focus-window-up ={};
+          "Mod+J".focus-window-down ={};
 
-          "Mod+Left".focus-column-left = null;
-          "Mod+Right".focus-column-right = null;
-          "Mod+Up".focus-window-up = null;
-          "Mod+Down".focus-window-down = null;
+          "Mod+Left".focus-column-left ={};
+          "Mod+Right".focus-column-right ={};
+          "Mod+Up".focus-window-up ={};
+          "Mod+Down".focus-window-down ={};
 
-          "Mod+Shift+H".move-column-left = null;
-          "Mod+Shift+L".move-column-right = null;
-          "Mod+Shift+K".move-window-up = null;
-          "Mod+Shift+J".move-window-down = null;
+          "Mod+Shift+H".move-column-left ={};
+          "Mod+Shift+L".move-column-right ={};
+          "Mod+Shift+K".move-window-up ={};
+          "Mod+Shift+J".move-window-down ={};
 
           "Mod+1".focus-workspace = "w0";
           "Mod+2".focus-workspace = "w1";
@@ -121,12 +122,12 @@
           "Mod+Ctrl+J".set-window-height = "-5%";
           "Mod+Ctrl+K".set-window-height = "+5%";
 
-          "Mod+WheelScrollDown".focus-column-left = null;
-          "Mod+WheelScrollUp".focus-column-right = null;
-          "Mod+Ctrl+WheelScrollDown".focus-workspace-down = null;
-          "Mod+Ctrl+WheelScrollUp".focus-workspace-up = null;
-          "Mod+Comma".consume-window-into-column = null;
-          "Mod+Period".expel-window-from-column = null;
+          "Mod+WheelScrollDown".focus-column-left ={};
+          "Mod+WheelScrollUp".focus-column-right ={};
+          "Mod+Ctrl+WheelScrollDown".focus-workspace-down ={};
+          "Mod+Ctrl+WheelScrollUp".focus-workspace-up ={};
+          "Mod+Comma".consume-window-into-column ={};
+          "Mod+Period".expel-window-from-column ={};
           "Mod+Escape".spawn-sh = "${lib.getExe self'.packages.myNoctalia} ipc call lockScreen lock";
         };
       };
