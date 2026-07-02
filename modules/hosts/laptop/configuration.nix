@@ -115,7 +115,9 @@ services.blueman.enable = true;
     packages = with pkgs; [
         #####
     ];
+    shell = pkgs.fish;
   };
+  programs.fish.enable = true;
 
   # Install firefox.
   programs.firefox.enable = true;
@@ -147,11 +149,10 @@ services.blueman.enable = true;
     dotnetCorePackages.sdk_9_0-bin
     mono
     msbuild
-    impression
     gparted
     vlc
-    udisks
     tigervnc
+    unzip
   ];
   #HYPRLAND
 #services.greetd = {
