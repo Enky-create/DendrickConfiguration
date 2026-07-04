@@ -10,6 +10,7 @@
       self.nixosModules.myLaptopHardware
       self.nixosModules.amnezia
       self.nixosModules.niri
+      self.nixosModules.kitty
       
     ];
 
