@@ -7,7 +7,7 @@
       # ===== Прозрачность =====
       # 0.0 — полностью прозрачный, 1.0 — непрозрачный.
       background_opacity 0.85
-      background_blur 40
+      background_blur 30
       # Позволяет менять прозрачность на лету (Ctrl+Shift+A потом m/l).
       dynamic_background_opacity yes
 
