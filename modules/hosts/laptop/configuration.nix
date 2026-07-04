@@ -152,7 +152,7 @@ services.blueman.enable = true;
     gparted
     vlc
     tigervnc
-    unzip
+    file-roller
   ];
   #HYPRLAND
 #services.greetd = {
