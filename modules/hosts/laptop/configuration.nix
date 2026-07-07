@@ -12,6 +12,7 @@
       self.nixosModules.niri
       self.nixosModules.kitty
       self.nixosModules.neovim
+      self.nixosModules.homeManager
     ];
 
   #Bluetooth
@@ -155,7 +156,7 @@ services.blueman.enable = true;
     tigervnc
     file-roller
     cava
-    btop
+    btop    
   ];
   #HYPRLAND
 #services.greetd = {
