@@ -155,6 +155,7 @@ services.blueman.enable = true;
     tigervnc
     file-roller
     cava
+    btop
   ];
   #HYPRLAND
 #services.greetd = {

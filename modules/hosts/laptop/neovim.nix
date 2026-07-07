@@ -79,12 +79,7 @@
           vim.g.maplocalleader = " "
         '';
 
-    # Общие (глобальные) шорткаты
-    keymaps = [
-      { mode = "n"; key = "<leader>e"; action = "<cmd>Ex<CR>"; options.desc = "Файловый браузер"; }
-      { mode = "n"; key = "<leader>w"; action = "<cmd>w<CR>"; options.desc = "Сохранить"; }
-      { mode = "n"; key = "<leader>q"; action = "<cmd>q<CR>"; options.desc = "Закрыть"; }
-    ];
+    
 
     # Telescope — поиск файлов/текста
     plugins.telescope.keymaps = {
@@ -122,6 +117,9 @@
 
     # DAP — отладка
     keymaps = [
+      { mode = "n"; key = "<leader>e"; action = "<cmd>Ex<CR>"; options.desc = "Файловый браузер"; }
+      { mode = "n"; key = "<leader>w"; action = "<cmd>w<CR>"; options.desc = "Сохранить"; }
+      { mode = "n"; key = "<leader>q"; action = "<cmd>q<CR>"; options.desc = "Закрыть"; }
       { mode = "n"; key = "<F5>"; action.__raw = "function() require('dap').continue() end"; options.desc = "Debug: continue"; }
       { mode = "n"; key = "<F10>"; action.__raw = "function() require('dap').step_over() end"; }
       { mode = "n"; key = "<F11>"; action.__raw = "function() require('dap').step_into() end"; }
