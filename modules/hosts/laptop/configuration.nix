@@ -11,7 +11,7 @@
       self.nixosModules.amnezia
       self.nixosModules.niri
       self.nixosModules.kitty
-      
+      self.nixosModules.neovim
     ];
 
   #Bluetooth
