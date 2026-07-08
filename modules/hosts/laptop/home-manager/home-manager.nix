@@ -10,6 +10,7 @@
       users.vadim = { pkgs, ... }: {
         imports = [
           self.homeManagerModules.lf
+	        self.homeManagerModules.gtk-theme
           # сюда же потом можно добавить self.homeManagerModules.kitty и т.д.
         ];
 
