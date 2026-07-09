@@ -12,6 +12,8 @@
           	self.homeManagerModules.lf
 	        self.homeManagerModules.gtk-theme
 	  	self.homeManagerModules.fish
+		self.homeManagerModules.starship
+
         ];
 
         home.stateVersion = "25.05"; # обязательное поле, ставить как system.stateVersion
