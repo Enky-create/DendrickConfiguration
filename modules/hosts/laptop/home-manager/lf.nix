@@ -32,7 +32,6 @@
     '';
   in {
     home.packages = with pkgs; [
-      bat
       chafa
       poppler-utils
       unzip

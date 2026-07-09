@@ -9,9 +9,9 @@
 
       users.vadim = { pkgs, ... }: {
         imports = [
-          self.homeManagerModules.lf
+          	self.homeManagerModules.lf
 	        self.homeManagerModules.gtk-theme
-          # сюда же потом можно добавить self.homeManagerModules.kitty и т.д.
+	  	self.homeManagerModules.fish
         ];
 
         home.stateVersion = "25.05"; # обязательное поле, ставить как system.stateVersion
