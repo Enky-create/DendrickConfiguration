@@ -157,6 +157,7 @@ services.blueman.enable = true;
     file-roller
     cava
     btop    
+    fastfetch
   ];
   #HYPRLAND
 #services.greetd = {

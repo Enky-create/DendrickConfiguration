@@ -6,8 +6,8 @@
       enable = true;
       defaultEditor = true; # EDITOR=nvim системно
 
-      colorschemes.gruvbox.enable = true;
-
+      #colorschemes.gruvbox.enable = true;
+       colorschemes.dracula-nvim.enable = true;
       globalOpts = {
         number = true;
         relativenumber = true;

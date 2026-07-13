@@ -8,6 +8,7 @@ flake.homeManagerModules.fish = { config, pkgs, inputs, ... }:
     zoxide   # умный cd
     fd       # быстрый find
     ripgrep  # быстрый grep
+    gparted  # test
   ];
 
   programs.fish = {

@@ -64,6 +64,7 @@
         "<delete>" = "delete";
         "dd" = "cut";
         "dp" = "paste";
+	"dc" = "copy";
       };
 
       commands = {
