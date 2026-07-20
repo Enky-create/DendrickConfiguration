@@ -13,6 +13,7 @@
       self.nixosModules.kitty
       self.nixosModules.neovim
       self.nixosModules.homeManager
+      self.nixosModules.android-flash-drivers
     ];
 
   #Bluetooth
@@ -158,6 +159,7 @@ services.blueman.enable = true;
     cava
     btop    
     fastfetch
+    pmbootstrap
   ];
   #HYPRLAND
 #services.greetd = {
