@@ -2,10 +2,6 @@
   flake.nixosModules.android-flash-drivers = { config, pkgs, inputs, ... }:
 {
 
-  # --- adb/fastboot: доступ к устройству без sudo, нужные udev-правила ---
-  programs.adb.enable = true;
-  users.users.vadim.extraGroups = [ "adbusers" ]; # замените "vadim" на своё имя пользователя, если другое
-
   # --- эмуляция aarch64: pmbootstrap собирает/распаковывает chroot под ARM
   #     на вашем x86_64 хосте через QEMU + binfmt_misc ---
   boot.binfmt.emulatedSystems = [ "aarch64-linux" ];

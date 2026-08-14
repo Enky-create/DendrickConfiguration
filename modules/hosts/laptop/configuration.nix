@@ -160,6 +160,8 @@ services.blueman.enable = true;
     btop    
     fastfetch
     pmbootstrap
+    opencode
+    #networkmanagerapplet
   ];
   #HYPRLAND
 #services.greetd = {
