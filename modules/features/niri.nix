@@ -25,7 +25,7 @@
         ];
 
         xwayland-satellite.path = lib.getExe pkgs.xwayland-satellite;
-        input.focus-follows-mouse = {};
+        #input.focus-follows-mouse = {};
         input.keyboard.xkb.layout = "us,ru";
         input.keyboard.xkb.options = "grp:win_space_toggle";
         input.touchpad.tap = {};

@@ -1,6 +1,7 @@
 {
-  "settingsVersion": 59,
-  "bar": {
+    "settings":{
+    "settingsVersion": 59,
+    "bar": {
     "barType": "simple",
     "position": "left",
     "monitors": [],
@@ -684,4 +685,5 @@
     "gridSnapScale": false,
     "monitorWidgets": []
   }
+}
 }
