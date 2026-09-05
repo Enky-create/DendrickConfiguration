@@ -162,6 +162,11 @@ services.blueman.enable = true;
     pmbootstrap
     opencode
     networkmanagerapplet
+    #for opencode
+    bun       
+    #node
+    #npm 
+    #npx  
   ];
   #HYPRLAND
 #services.greetd = {

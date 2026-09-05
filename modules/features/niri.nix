@@ -41,8 +41,10 @@
             active-color = "#f27c7c";
             inactive-color = "#313244";
           };
-        };  
-        
+        };
+
+	gestures.hot-corners.off={};
+
         window-rules = [
           {
             # Без этого focus ring/border рисуется как сплошной закрашенный
