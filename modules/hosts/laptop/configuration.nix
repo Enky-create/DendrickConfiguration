@@ -162,6 +162,7 @@ services.blueman.enable = true;
     pmbootstrap
     opencode
     networkmanagerapplet
+    heroic
     #for opencode
     bun       
     #node
