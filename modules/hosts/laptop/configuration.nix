@@ -167,7 +167,8 @@ services.blueman.enable = true;
     bun       
     #node
     #npm 
-    #npx  
+    #npx
+    google-chrome
   ];
   #HYPRLAND
 #services.greetd = {
