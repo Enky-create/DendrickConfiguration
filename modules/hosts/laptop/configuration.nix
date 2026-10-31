@@ -170,6 +170,11 @@ services.blueman.enable = true;
     #npx
     google-chrome
     nodejs
+    nodemon
+    postman
+    lsof
+    #kiro-cli
+    tailscale
   ];
   #HYPRLAND
 #services.greetd = {
