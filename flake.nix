@@ -14,6 +14,9 @@
       url = "github:nix-community/home-manager/master"; # master = unstable, в паре с nixos-unstable
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    nixpkgs-tailscale= { 
+      url = "github:nixos/nixpkgs/nixos-unstable";
+    };
   };
 
   outputs = inputs: inputs.flake-parts.lib.mkFlake {inherit inputs;} (inputs.import-tree ./modules);

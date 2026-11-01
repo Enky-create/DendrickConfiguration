@@ -14,6 +14,7 @@
       self.nixosModules.neovim
       self.nixosModules.homeManager
       self.nixosModules.android-flash-drivers
+      self.nixosModules.tailscale
     ];
 
   #Bluetooth
@@ -173,8 +174,9 @@ services.blueman.enable = true;
     nodemon
     postman
     lsof
-    #kiro-cli
-    tailscale
+    kiro
+    #tailscale
+    dnsutils
   ];
   #HYPRLAND
 #services.greetd = {
