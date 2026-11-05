@@ -15,6 +15,7 @@
       self.nixosModules.homeManager
       self.nixosModules.android-flash-drivers
       self.nixosModules.tailscale
+      self.nixosModules.postgres
     ];
 
   #Bluetooth
@@ -177,6 +178,8 @@ services.blueman.enable = true;
     kiro
     #tailscale
     dnsutils
+    pgadmin4
+    postgresql
   ];
   #HYPRLAND
 #services.greetd = {
